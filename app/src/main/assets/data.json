@@ -1,0 +1,86 @@
+{
+  "points": [
+    {
+      "latitude": 41.2683925,
+      "longitude": -8.6169403,
+      "name": "ISMAI"
+    },
+    {
+      "latitude": 41.2688908,
+      "longitude": -8.6154486,
+      "name": "Subway Stop - ISMAI"
+    }
+  ],
+  "polygon-ISMAI": [
+    {
+      "latitude": 41.267761,
+      "longitude": -8.618037,
+      "name": "Point 1"
+    },
+    {
+      "latitude": 41.267778,
+      "longitude": -8.616155,
+      "name": "Point 2"
+    },
+    {
+      "latitude": 41.268485,
+      "longitude": -8.615739,
+      "name": "Point 3"
+    },
+    {
+      "latitude": 41.26867,
+      "longitude": -8.61603,
+      "name": "Point 4"
+    },
+    {
+      "latitude": 41.268991,
+      "longitude": -8.615899,
+      "name": "Point 5"
+    },
+    {
+      "latitude": 41.270547,
+      "longitude": -8.615756,
+      "name": "Point 6"
+    },
+    {
+      "latitude": 41.270569,
+      "longitude": -8.616053,
+      "name": "Point 7"
+    },
+    {
+      "latitude": 41.271246,
+      "longitude": -8.616001,
+      "name": "Point 8"
+    },
+    {
+      "latitude": 41.271083,
+      "longitude": -8.616783,
+      "name": "Point 9"
+    },
+    {
+      "latitude": 41.269313,
+      "longitude": -8.617387,
+      "name": "Point 10"
+    },
+    {
+      "latitude": 41.269355,
+      "longitude": -8.617672,
+      "name": "Point 11"
+    },
+    {
+      "latitude": 41.268815,
+      "longitude": -8.617883,
+      "name": "Point 12"
+    },
+    {
+      "latitude": 41.268764,
+      "longitude": -8.618055,
+      "name": "Point 13"
+    },
+    {
+      "latitude": 41.268497,
+      "longitude": -8.617979,
+      "name": "Point 14"
+    }
+  ]
+}
