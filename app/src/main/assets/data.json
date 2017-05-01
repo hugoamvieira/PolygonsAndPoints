@@ -82,5 +82,322 @@
       "longitude": -8.617979,
       "name": "Point 14"
     }
+  ],
+  "polygon-ISEP": [
+    {
+      "latitude": 41.17843,
+      "longitude": -8.60901,
+      "name": "Point 1"
+    },
+    {
+      "latitude": 41.17843,
+      "longitude": -8.60895,
+      "name": "Point 2"
+    },
+    {
+      "latitude": 41.17839,
+      "longitude": -8.60896,
+      "name": "Point 3"
+    },
+    {
+      "latitude": 41.1784,
+      "longitude": -8.60861,
+      "name": "Point 4"
+    },
+    {
+      "latitude": 41.17841,
+      "longitude": -8.60861,
+      "name": "Point 5"
+    },
+    {
+      "latitude": 41.17838,
+      "longitude": -8.60847,
+      "name": "Point 6"
+    },
+    {
+      "latitude": 41.17823,
+      "longitude": -8.60849,
+      "name": "Point 7"
+    },
+    {
+      "latitude": 41.17824,
+      "longitude": -8.60862,
+      "name": "Point 8"
+    },
+    {
+      "latitude": 41.17769,
+      "longitude": -8.60868,
+      "name": "Point 9"
+    },
+    {
+      "latitude": 41.17768,
+      "longitude": -8.60856,
+      "name": "Point 10"
+    },
+    {
+      "latitude": 41.1775,
+      "longitude": -8.60857,
+      "name": "Point 11"
+    },
+    {
+      "latitude": 41.17747,
+      "longitude": -8.60801,
+      "name": "Point 12"
+    },
+    {
+      "latitude": 41.17748,
+      "longitude": -8.608,
+      "name": "Point 13"
+    },
+    {
+      "latitude": 41.17748,
+      "longitude": -8.60791,
+      "name": "Point 14"
+    },
+    {
+      "latitude": 41.17745,
+      "longitude": -8.6079,
+      "name": "Point 15"
+    },
+    {
+      "latitude": 41.17745,
+      "longitude": -8.60788,
+      "name": "Point 16"
+    },
+    {
+      "latitude": 41.17741,
+      "longitude": -8.60788,
+      "name": "Point 17"
+    },
+    {
+      "latitude": 41.17743,
+      "longitude": -8.60778,
+      "name": "Point 18"
+    },
+    {
+      "latitude": 41.17745,
+      "longitude": -8.60776,
+      "name": "Point 19"
+    },
+    {
+      "latitude": 41.17747,
+      "longitude": -8.60772,
+      "name": "Point 20"
+    },
+    {
+      "latitude": 41.17751,
+      "longitude": -8.60769,
+      "name": "Point 21"
+    },
+    {
+      "latitude": 41.17752,
+      "longitude": -8.60771,
+      "name": "Point 22"
+    },
+    {
+      "latitude": 41.17756,
+      "longitude": -8.6077,
+      "name": "Point 23"
+    },
+    {
+      "latitude": 41.17756,
+      "longitude": -8.60768,
+      "name": "Point 24"
+    },
+    {
+      "latitude": 41.17795,
+      "longitude": -8.60763,
+      "name": "Point 25"
+    },
+    {
+      "latitude": 41.17795,
+      "longitude": -8.60771,
+      "name": "Point 26"
+    },
+    {
+      "latitude": 41.17805,
+      "longitude": -8.6077,
+      "name": "Point 27"
+    },
+    {
+      "latitude": 41.17804,
+      "longitude": -8.60752,
+      "name": "Point 28"
+    },
+    {
+      "latitude": 41.17826,
+      "longitude": -8.6075,
+      "name": "Point 29"
+    },
+    {
+      "latitude": 41.17826,
+      "longitude": -8.60751,
+      "name": "Point 30"
+    },
+    {
+      "latitude": 41.17831,
+      "longitude": -8.60751,
+      "name": "Point 31"
+    },
+    {
+      "latitude": 41.1783,
+      "longitude": -8.6074,
+      "name": "Point 32"
+    },
+    {
+      "latitude": 41.1786,
+      "longitude": -8.60737,
+      "name": "Point 33"
+    },
+    {
+      "latitude": 41.17861,
+      "longitude": -8.60741,
+      "name": "Point 34"
+    },
+    {
+      "latitude": 41.17866,
+      "longitude": -8.6074,
+      "name": "Point 35"
+    },
+    {
+      "latitude": 41.17868,
+      "longitude": -8.6076,
+      "name": "Point 36"
+    },
+    {
+      "latitude": 41.17832,
+      "longitude": -8.6076,
+      "name": "Point 37"
+    },
+    {
+      "latitude": 41.17832,
+      "longitude": -8.60765,
+      "name": "Point 38"
+    },
+    {
+      "latitude": 41.17816,
+      "longitude": -8.60767,
+      "name": "Point 39"
+    },
+    {
+      "latitude": 41.1782,
+      "longitude": -8.6082,
+      "name": "Point 40"
+    },
+    {
+      "latitude": 41.17812,
+      "longitude": -8.60821,
+      "name": "Point 41"
+    },
+    {
+      "latitude": 41.17812,
+      "longitude": -8.60813,
+      "name": "Point 42"
+    },
+    {
+      "latitude": 41.17808,
+      "longitude": -8.60813,
+      "name": "Point 43"
+    },
+    {
+      "latitude": 41.17805,
+      "longitude": -8.60773,
+      "name": "Point 44"
+    },
+    {
+      "latitude": 41.17797,
+      "longitude": -8.60773,
+      "name": "Point 45"
+    },
+    {
+      "latitude": 41.17798,
+      "longitude": -8.60782,
+      "name": "Point 46"
+    },
+    {
+      "latitude": 41.17793,
+      "longitude": -8.60782,
+      "name": "Point 47"
+    },
+    {
+      "latitude": 41.17796,
+      "longitude": -8.60813,
+      "name": "Point 48"
+    },
+    {
+      "latitude": 41.17775,
+      "longitude": -8.60814,
+      "name": "Point 49"
+    },
+    {
+      "latitude": 41.17774,
+      "longitude": -8.60786,
+      "name": "Point 50"
+    },
+    {
+      "latitude": 41.17764,
+      "longitude": -8.60788,
+      "name": "Point 51"
+    },
+    {
+      "latitude": 41.17768,
+      "longitude": -8.60847,
+      "name": "Point 52"
+    },
+    {
+      "latitude": 41.17773,
+      "longitude": -8.60846,
+      "name": "Point 53"
+    },
+    {
+      "latitude": 41.17772,
+      "longitude": -8.6084,
+      "name": "Point 54"
+    },
+    {
+      "latitude": 41.17849,
+      "longitude": -8.60832,
+      "name": "Point 55"
+    },
+    {
+      "latitude": 41.1785,
+      "longitude": -8.60846,
+      "name": "Point 56"
+    },
+    {
+      "latitude": 41.17851,
+      "longitude": -8.60846,
+      "name": "Point 57"
+    },
+    {
+      "latitude": 41.17852,
+      "longitude": -8.6086,
+      "name": "Point 58"
+    },
+    {
+      "latitude": 41.17857,
+      "longitude": -8.60859,
+      "name": "Point 59"
+    },
+    {
+      "latitude": 41.17862,
+      "longitude": -8.60893,
+      "name": "Point 60"
+    },
+    {
+      "latitude": 41.17858,
+      "longitude": -8.60893,
+      "name": "Point 61"
+    },
+    {
+      "latitude": 41.17859,
+      "longitude": -8.60899,
+      "name": "Point 62"
+    },
+    {
+      "latitude": 41.17853,
+      "longitude": -8.609,
+      "name": "Point 63"
+    }
   ]
 }

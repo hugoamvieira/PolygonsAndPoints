@@ -2,9 +2,11 @@ package io.github.hugoamvieira.polygonsandpoints;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Debug;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -74,45 +76,51 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Point> pointsList = new ArrayList<>();
         ArrayList<Polygon> polygonsList = new ArrayList<>();
 
-
         if (!jsonData.isEmpty()) {
             try {
                 // Read main object
                 JSONObject obj = new JSONObject(jsonData);
 
-                // TODO: Dynamically get all polygons
+                for (int i = 0; i < obj.names().length(); i++) {
+                    if (i == 0) {
+                        // Only points here.
+                        JSONArray pointsJSONArray = obj.getJSONArray(obj.names().getString(i));
 
-                JSONArray pointsJSONArray = obj.getJSONArray("points");
-                JSONArray polygonPointsJSONArray = obj.getJSONArray("polygon-ISMAI");
+                        for (int j = 0; j < pointsJSONArray.length(); j++) {
+                            JSONObject jsonPoint = pointsJSONArray.getJSONObject(j);
 
-                // Add all points to point list
-                for (int i = 0; i < pointsJSONArray.length(); i++) {
-                    JSONObject jsonPoint = pointsJSONArray.getJSONObject(i);
+                            double latitude = jsonPoint.getDouble("latitude");
+                            double longitude = jsonPoint.getDouble("longitude");
+                            String name = jsonPoint.getString("name");
 
-                    double latitude = jsonPoint.getDouble("latitude");
-                    double longitude = jsonPoint.getDouble("longitude");
-                    String name = jsonPoint.getString("name");
+                            Point p = new Point(latitude, longitude, name);
+                            pointsList.add(p);
+                        }
 
-                    Point p = new Point(latitude, longitude, name);
-                    pointsList.add(p);
+                    } else {
+                        // It's time for polygons.
+                        JSONArray polygonPointsJSONArray = obj.getJSONArray(obj.names().getString(i));
+
+                        // Add all polygon points to point array
+                        Point[] polygonPoints = new Point[polygonPointsJSONArray.length()];
+
+                        for (int j = 0; j < polygonPointsJSONArray.length(); j++) {
+                            JSONObject jsonPoint = polygonPointsJSONArray.getJSONObject(j);
+
+                            double latitude = jsonPoint.getDouble("latitude");
+                            double longitude = jsonPoint.getDouble("longitude");
+                            String name = jsonPoint.getString("name");
+
+                            polygonPoints[j] = new Point(latitude, longitude, name);
+                        }
+
+                        // Create new Polygon object with the Points array.
+                        // JSON polygon naming convention shall be "polygon-<NAME-IN-APP>
+                        Polygon polygon = new Polygon(polygonPoints, obj.names().getString(i).split("-")[1] + " Polygon");
+                        polygonsList.add(polygon);
+                    }
                 }
 
-                // Add all polygon points to point array
-                Point[] polygonPoints = new Point[polygonPointsJSONArray.length()];
-
-                for (int i = 0; i < polygonPointsJSONArray.length(); i++) {
-                    JSONObject jsonPoint = polygonPointsJSONArray.getJSONObject(i);
-
-                    double latitude = jsonPoint.getDouble("latitude");
-                    double longitude = jsonPoint.getDouble("longitude");
-                    String name = jsonPoint.getString("name");
-
-                    polygonPoints[i] = new Point(latitude, longitude, name);
-                }
-
-                // Create new Polygon object with the Points array
-                Polygon polygon = new Polygon(polygonPoints, "ISMAI Polygon");
-                polygonsList.add(polygon);
 
             } catch (Exception e) {
                 e.printStackTrace();
